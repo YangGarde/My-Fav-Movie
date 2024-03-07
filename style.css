@@ -1,0 +1,52 @@
+
+            body{
+                margin: 0;
+                padding: 0;
+                background: url(sky.gif);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+                height: 200vh;
+            }
+        
+            h1{
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #ffffff;
+            }
+            .containers{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                padding: 25px;
+            }
+            .item{
+                margin: 5px;
+                width: 150px;
+                height: 350px;
+                text-align: center;
+                background-color: rgba(226, 124, 124, 0.8);
+                border-radius: 40px;
+                padding: 40px;
+                box-shadow: 0 4px 5px rgb(0, 0, 0);
+                transition: transform 0.3s ease;
+                position: relative;
+            }
+            .item img{
+                width: 160px;
+                height: 160px;
+                border-radius: 35%;
+                margin-bottom: 30px;
+                object-fit: cover;
+            }
+            .item p{
+                margin: 5px 0;
+                font-size: 13px;
+                color: #ffffff;
+                text-align: justify;
+            }
+        
